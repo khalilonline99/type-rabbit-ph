@@ -11,6 +11,12 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+#link{
+  color: bisque;
+  text-decoration: none;
+  text-align: center;
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
