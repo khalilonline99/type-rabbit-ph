@@ -40,38 +40,33 @@
       </div>
   
       <div class="qna">
-        <h3 class="question">Question 3</h3>
+        <h3 class="question">How javascript event loop works</h3>
         <div class="answer">
           <p>
-            <span style="font-weight: bold;">Local Storage:</span>
-            <br>
-            <span style="font-weight: bold;">Local Storage:</span>
+            <span style="font-weight: bold;">Event Loop:</span> JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.The Event Loop has one simple job and that is to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it.
+            
           </p>
         </div>
       </div>
   
       <div class="qna">
-        <h3 class="question">Question 4</h3>
+        <h3 class="question">How many ways to get undefined in javascript?</h3>
         <div class="answer">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
-            quaerat delectus quis. Qui quas quidem minus culpa nobis. At, quam.
+            1. Function with no return will give undefined <br>
+            2. Parameter that is not passed will give undefined <br>
+            3. If a variable is not initialized it will give undefined <br>
+            4. If property doesnt exist it will give undefined <br>
+            5. If a return has nothing on the right side it will give undefined <br>
+            6. Accessing array index outside of index will will give undefined <br>
+            7. If an element is deleted from array it will give undefined <br>
+            8. If we directly put a value of undefined it will give undefined <br>
+            
           </p>
         </div>
       </div>
   
-      <div class="qna">
-        <h3 class="question">Question 5</h3>
-        <div class="answer">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            dolorum illo non recusandae, pariatur magnam enim dicta provident
-            ipsam ratione. Lorem ipsum, dolor sit amet consectetur adipisicing
-            elit. Mollitia quaerat delectus quis. Qui quas quidem minus culpa
-            nobis. At, quam.
-          </p>
-        </div>
-      </div>
+
     </div>
   
     <script src="js/blogs.js"></script>

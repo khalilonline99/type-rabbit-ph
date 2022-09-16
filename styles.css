@@ -11,6 +11,14 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+#header-top {
+  display: flex;
+  align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  margin-top: 10px;
+}
+
 #link{
   color: bisque;
   text-decoration: none;
@@ -23,7 +31,9 @@ body {
 }
 
 #question {
-  height: 100px;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
