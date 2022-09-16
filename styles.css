@@ -74,7 +74,6 @@ body {
   color: white;
   text-align: center;
   padding: 2rem;
-  /* transform: perspective(1px) translateY(-220%); */
   margin: auto;
 }
 #show-time{
@@ -157,15 +156,13 @@ button {
 .card {
   width: 100%;
   height: 100%;
-  padding: 50px;
+  padding: 15px;
   /* display: grid;
   grid-row: 1;
   text-align: center; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  padding: 10px;
   color: white;
   border-radius: 15px;
   background: rgb(255, 255, 255);
